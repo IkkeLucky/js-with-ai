@@ -3,8 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <title>To-Do List</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bae92ef3f4.js" crossorigin="anonymous"></script>
   </head>
+
+
   <body>
     <div class="container">
       <h1>To-Do List</h1>
@@ -14,6 +18,74 @@
       </form>
       <ul id="todo-list"></ul>
     </div>
-    <script src="script.js"></script>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+
+    <div class="calculator">
+		<div class="display">
+			<p id="result">0</p>
+		</div>
+		<div class="buttons">
+			<button class="operator" id="add">+</button>
+			<button class="operator" id="subtract">-</button>
+			<button class="operator" id="multiply">*</button>
+			<button class="operator" id="divide">/</button>
+			<button class="number" id="7">7</button>
+			<button class="number" id="8">8</button>
+			<button class="number" id="9">9</button>
+			<button class="number" id="4">4</button>
+			<button class="number" id="5">5</button>
+			<button class="number" id="6">6</button>
+			<button class="number" id="1">1</button>
+			<button class="number" id="2">2</button>
+			<button class="number" id="3">3</button>
+			<button class="number" id="0">0</button>
+			<button id="decimal">.</button>
+			<button id="clear">C</button>
+			<button id="equals">=</button>
+		</div>
+	</div>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+
+    <div class="container">
+		<header>
+			<h1>Calendar</h1>
+		</header>
+
+		<div class="calendar">
+			<div class="calendar-header">
+				<button id="prev-month">&lt;</button>
+				<h2 id="current-month"></h2>
+				<button id="next-month">&gt;</button>
+			</div>
+
+			<table id="calendar-table">
+				<thead>
+					<tr>
+						<th>Sun</th>
+						<th>Mon</th>
+						<th>Tue</th>
+						<th>Wed</th>
+						<th>Thu</th>
+						<th>Fri</th>
+						<th>Sat</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!-- Calendar days go here -->
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+
+    <script src="to-do.js"></script>
   </body>
 </html>
